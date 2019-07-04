@@ -5,13 +5,13 @@
 
 1.新建xxPage类,直接写java代码方法一样</br>
 
-public class LoginPage {</br>
+public class LoginPage {
 
-	public String index() {</br>
+	public String index() {
 
-		Style css = new Style();</br>
-		Script js = new Script();</br>
-		// 自定义样式加入到Style对象</br>
+		Style css = new Style();
+		Script js = new Script();
+		// 自定义样式加入到Style对象
 		css.with("body,html{width:100%;height:100%;margin:0;padding:0;background:#eee;display: flex;align-items: center;justify-content: center;}");</br>
 		css.with("#loginPanel{width: 350px;height: 200px;border: 1px solid #000;border-radius: 5px;position: relative;top: -80px;padding: 20px;}");</br>
 		css.with(".topctn{width:100%;height:40%;display: flex;align-items: center;justify-content: center;}.btm{width:100%;height:20%;display: flex;align-items: center;justify-content: center;}");</br>
